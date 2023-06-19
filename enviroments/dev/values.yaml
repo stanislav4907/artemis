@@ -1,4 +1,9 @@
 replicacount: 3
+image:
+  repository: us-central1-docker.pkg.dev/k8s-class-stanislav4907/artemis/artemis
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "9.0.0"
 
 ingress:
   enabled: true
