@@ -18,7 +18,7 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
-  tls: []
+  tls: 
      - secretName: letsencrypt-prod-dns01
        hosts:
          - host: dev.krotiuk.com
