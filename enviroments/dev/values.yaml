@@ -18,9 +18,9 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
-  tls: 
-    ingress.kubernetes.io/ssl-redirect: "false"
-    kubernetes.io/ingress.class: nginx
-    cert-manager.io/cluster-issuer: letsencrypt-prod-dns01
-    acme.cert-manager.io/http01-edit-in-place: "true"
+  tls: []
+     - secretName: letsencrypt-prod-dns01
+       hosts:
+         - host: dev.krotiuk.com
+
 resources: {}
