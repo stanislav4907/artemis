@@ -1,5 +1,5 @@
 env:
-  repo:         "https://github.com/cyberbek/artemis.git"
+  repo:         "https://github.com/farrukh90/artemis.git"
   app_version:  "2.0.0"
   project_id:   "k8s-class-stanislav4907"
   repo_region:  "us-central1"
